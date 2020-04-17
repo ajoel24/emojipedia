@@ -4,7 +4,7 @@ footer {
   align-items: center;
   justify-content: center;
   line-height: 0;
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   background-color: #000;

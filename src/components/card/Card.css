@@ -9,6 +9,8 @@
   padding: 0.5rem;
   border-radius: 1rem;
   box-shadow: 3px 3px 0 0 #ccc;
+  align-self: stretch;
+  justify-self: stretch;
 }
 
 .card p {

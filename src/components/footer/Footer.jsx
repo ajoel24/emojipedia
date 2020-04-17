@@ -5,7 +5,7 @@ function Footer() {
 	return (
 		<footer>
 			<h4>&copy; {new Date().getFullYear()}</h4>
-			<h4>Made by Andrew</h4>
+			<h4>Made by Andrew. Developed using React.js</h4>
 		</footer>
 	);
 }
