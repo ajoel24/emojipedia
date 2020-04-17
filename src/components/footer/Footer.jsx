@@ -1,10 +1,11 @@
 import React from "react";
+import "./Footer.css";
 
 function Footer() {
 	return (
 		<footer>
-			<h3>&copy; {new Date().getFullYear()}</h3>
-			<h3>Made by Andrew</h3>
+			<h4>&copy; {new Date().getFullYear()}</h4>
+			<h4>Made by Andrew</h4>
 		</footer>
 	);
 }
