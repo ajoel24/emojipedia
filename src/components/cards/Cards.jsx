@@ -1,13 +1,12 @@
 import React from "react";
 import Card from "../card/Card";
 import "./Cards.css";
+// import emojiData from "../data/emojiData";
 
 function Cards() {
 	return (
 		<main>
-			<Card />
-			<Card />
-			<Card />
+			<Card emoji="🙂" title="Title" description="description" />
 		</main>
 	);
 }
