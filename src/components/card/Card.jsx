@@ -4,7 +4,9 @@ import "./Card.css";
 function Card() {
 	return (
 		<section className="card">
-			<span className="emoji">🙂</span>
+			<span className="emoji" role="img" aria-labelledby="emoji">
+				🙂
+			</span>
 			<h3>Emoji Title</h3>
 			<p>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nesciunt
